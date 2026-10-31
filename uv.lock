@@ -1007,7 +1007,10 @@ requires-dist = [
     { name = "black", specifier = ">=25.11.0" },
     { name = "isort", specifier = ">=6.1.0" },
     { name = "langchain-anthropic", specifier = ">=0.3.22" },
+<<<<<<< HEAD
     { name = "langchain-ollama", specifier = ">=0.3.10" },
+=======
+>>>>>>> 78ad36ed4681100813813a0c27b751eeb9d77f0f
     { name = "python-dotenv", specifier = ">=1.2.1" },
 ]
 
@@ -1100,6 +1103,7 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
 name = "langchain-ollama"
 version = "0.3.10"
 source = { registry = "https://pypi.org/simple" }
@@ -1134,6 +1138,8 @@ wheels = [
 ]
 
 [[package]]
+=======
+>>>>>>> 78ad36ed4681100813813a0c27b751eeb9d77f0f
 name = "langchain-protocol"
 version = "0.0.20"
 source = { registry = "https://pypi.org/simple" }
@@ -1208,6 +1214,7 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
 name = "ollama"
 version = "0.6.3"
 source = { registry = "https://pypi.org/simple" }
@@ -1222,6 +1229,8 @@ wheels = [
 ]
 
 [[package]]
+=======
+>>>>>>> 78ad36ed4681100813813a0c27b751eeb9d77f0f
 name = "opentelemetry-api"
 version = "1.45.2"
 source = { registry = "https://pypi.org/simple" }
