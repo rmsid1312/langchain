@@ -1,5 +1,5 @@
 [project]
-name = "langchain"
+name = "langchain-study"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -16,7 +16,7 @@ dependencies = [
 ]
 
 [project.scripts]
-langchain = "langchain:main"
+langchain = "langchain_study:main"
 
 [build-system]
 requires = ["uv_build>=0.13.6,<0.14.0"]

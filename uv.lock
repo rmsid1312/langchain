@@ -981,43 +981,6 @@ wheels = [
 ]
 
 [[package]]
-name = "langchain"
-version = "0.1.0"
-source = { editable = "." }
-dependencies = [
-    { name = "black", version = "25.11.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.10'" },
-    { name = "black", version = "26.10.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.10'" },
-    { name = "isort", version = "6.1.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.10'" },
-    { name = "isort", version = "9.0.2", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.10'" },
-    { name = "langchain-anthropic", version = "0.3.22", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.10'" },
-    { name = "langchain-anthropic", version = "1.7.7", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.10'" },
-    { name = "langchain-ollama", version = "0.3.10", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.10'" },
-    { name = "langchain-ollama", version = "1.1.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.10'" },
-    { name = "python-dotenv", version = "1.2.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.10'" },
-    { name = "python-dotenv", version = "1.2.4", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.10'" },
-]
-
-[package.dev-dependencies]
-dev = [
-    { name = "ruff" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "black", specifier = ">=25.11.0" },
-    { name = "isort", specifier = ">=6.1.0" },
-    { name = "langchain-anthropic", specifier = ">=0.3.22" },
-<<<<<<< HEAD
-    { name = "langchain-ollama", specifier = ">=0.3.10" },
-=======
->>>>>>> 78ad36ed4681100813813a0c27b751eeb9d77f0f
-    { name = "python-dotenv", specifier = ">=1.2.1" },
-]
-
-[package.metadata.requires-dev]
-dev = [{ name = "ruff", specifier = ">=0.17.3" }]
-
-[[package]]
 name = "langchain-anthropic"
 version = "0.3.22"
 source = { registry = "https://pypi.org/simple" }
@@ -1103,7 +1066,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
 name = "langchain-ollama"
 version = "0.3.10"
 source = { registry = "https://pypi.org/simple" }
@@ -1138,8 +1100,6 @@ wheels = [
 ]
 
 [[package]]
-=======
->>>>>>> 78ad36ed4681100813813a0c27b751eeb9d77f0f
 name = "langchain-protocol"
 version = "0.0.20"
 source = { registry = "https://pypi.org/simple" }
@@ -1150,6 +1110,40 @@ sdist = { url = "https://files.pythonhosted.org/packages/cb/8b/d908d082c3cf5368d
 wheels = [
     { url = "https://files.pythonhosted.org/packages/02/4b/f1c99a0b27c5ff8b4b131c0d6e62012c17cc424089efe213767db927afd2/langchain_protocol-0.0.20-py3-none-any.whl", hash = "sha256:3c935e5e46b0f6f9cb52f45ba7cfa53d1b9fa80c82c4a277d47f03e07f7385b1", size = 7347, upload-time = "2026-10-20T11:13:49.566Z" },
 ]
+
+[[package]]
+name = "langchain-study"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+    { name = "black", version = "25.11.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.10'" },
+    { name = "black", version = "26.10.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.10'" },
+    { name = "isort", version = "6.1.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.10'" },
+    { name = "isort", version = "9.0.2", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.10'" },
+    { name = "langchain-anthropic", version = "0.3.22", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.10'" },
+    { name = "langchain-anthropic", version = "1.7.7", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.10'" },
+    { name = "langchain-ollama", version = "0.3.10", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.10'" },
+    { name = "langchain-ollama", version = "1.1.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.10'" },
+    { name = "python-dotenv", version = "1.2.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.10'" },
+    { name = "python-dotenv", version = "1.2.4", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.10'" },
+]
+
+[package.dev-dependencies]
+dev = [
+    { name = "ruff" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "black", specifier = ">=25.11.0" },
+    { name = "isort", specifier = ">=6.1.0" },
+    { name = "langchain-anthropic", specifier = ">=0.3.22" },
+    { name = "langchain-ollama", specifier = ">=0.3.10" },
+    { name = "python-dotenv", specifier = ">=1.2.1" },
+]
+
+[package.metadata.requires-dev]
+dev = [{ name = "ruff", specifier = ">=0.17.3" }]
 
 [[package]]
 name = "langsmith"
@@ -1214,7 +1208,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
 name = "ollama"
 version = "0.6.3"
 source = { registry = "https://pypi.org/simple" }
@@ -1229,8 +1222,6 @@ wheels = [
 ]
 
 [[package]]
-=======
->>>>>>> 78ad36ed4681100813813a0c27b751eeb9d77f0f
 name = "opentelemetry-api"
 version = "1.45.2"
 source = { registry = "https://pypi.org/simple" }
